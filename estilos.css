@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.form_input{
+    font-family: inherit;
+    font-size: 1em;
+    padding: .5em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #ABB2B9;
+    border-radius: 0.8em;
+    
+}
+
+.form_input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+.form_cta{
+    font-family: inherit;
+    background-color: #1670b1;
+    color: #f2f1f0;
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .5em 0;
+    border-radius: .9em;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: .2em .2em;
+}
+
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 0.5em;
+    grid-auto-columns: 100%;
+}
+
+.form_title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+@media (max-width:250px){
+
+    body{
+        font-family: 'Nunito', sans-serif;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+    }
+    
+    .form_input{
+        font-family: inherit;
+        font-size: 1em;
+        padding: .5em 1em;
+        outline: none;
+        border: none;
+        border: 1px solid #ABB2B9;
+        border-radius: 0.8em;
+        
+    }
+    
+    .form_input--message{
+        resize: none;
+        padding: 1.8em 1em;
+        margin-bottom: .5em;
+    }
+    .form_cta{
+        font-family: inherit;
+        background-color: #1670b1;
+        color: #f2f1f0;
+        border: none;
+        font-weight: 300;
+        font-size: 1rem;
+        padding: .5em 0;
+        border-radius: .9em;
+        cursor: pointer;
+        font-weight: 900;
+    }
+    
+    .form{
+        background-color: #fff;
+        width: 90%;
+        margin: auto;
+        max-width: 400px;
+        border-radius: 1em;
+        padding: .2em .2em;
+    }
+    
+    .form_container{
+        width: 100%;
+        display: grid;
+        gap: 0.5em;
+        grid-auto-columns: 100%;
+    }
+    
+    .form_title{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: .4em;
+    }
+}
+
+
+
